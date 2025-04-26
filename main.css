@@ -19,9 +19,18 @@
 }
 
 li {
+  color: black;
   display: inline-block;
   list-style-type: none;
   margin: 0 12px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+
 }
 
 .hero {
@@ -43,6 +52,51 @@ button {
   color: white;
   border-radius: 10px;
 }
+
+
+
+/* ------About Me------ */
+.about-me{
+  height: 50vh;
+  width: 70%;
+  margin-left: 16%;
+}
+.about-me h2{
+  color: black;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.about-me p{
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
+
+/* -----Goals---- */
+
+.goals{
+  height: auto;
+  width: 100%;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-bottom: 10%;
+  background-color: #8e8f8f;
+}
+.goals h2{
+  color: black;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.goals p{
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
+
+
+
 
 
 /* ------Coding Journey Section--------- */
